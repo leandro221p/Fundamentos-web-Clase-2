@@ -1,0 +1,39 @@
+ body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+   }
+   h1{
+    color: black;
+   }
+   h2{
+    color: rgb(117, 46, 37);
+   }
+   h3{
+    color: rgb(196, 108, 108);
+   }
+   p{
+    font-size: 16px;
+   }
+   button{
+    padding: 10px 15px;
+    background-color: aquamarine;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   }
+   button:hover{
+    background-color: red;
+
+   }
+   
+   input[type="text"],input[type="email"]{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
+    margin-top: 10px;
+   }

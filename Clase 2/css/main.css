@@ -1,0 +1,15 @@
+.columna1{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;  
+        background-color: aquamarine;   
+}
+.columna2{
+        border: 1px solid black;
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;  
+        background-color: azure;
+}
+    
