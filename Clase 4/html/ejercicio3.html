@@ -79,35 +79,8 @@
        <section class="productos-destacados">
            <div class="container">
                <h2>Productos Destacados</h2>
-               <div class="grid-productos">
-                   <article class="producto">
-                       <h3 id="h3-1">balones de baloncesto</h3>
-                       <div id="balones"></div>
-                       <p class="precio"  id="precio-1"></p>
-                       <a href="producto1.html">ver detalles</a>
-                       <button>Añadir al carrito</button>
-                   </article>
-                   <article class="producto">
-                       <h3>gafas deportivas</h3>
-                          <div id="gafas"></div>
-                       <p class="precio">$39.99 cop</p>
-                       <a href="producto2.html">Ver detalles</a>
-                       <button>Añadir al carrito</button>
-                   </article>
-                   <article class="producto">
-                       <h3>bolsos de lujo</h3>
-                       <div id="bolsos"></div>
-                       <p class="precio" id="precio-3">$1.000.000 cop</p>
-                       <a href="producto3.html">Ver detalles</a>
-                       <button>Añadir al carrito</button>
-                   </article>
-                   <article class="producto">
-                       <h3>tenis nike</h3>
-                        <div id="nike"></div>
-                       <p class="precio">$240.000 cop</p>
-                       <a href="producto4.html">Ver detalles</a>
-                       <button>Añadir al carrito</button>
-                   </article>
+               <div class="grid-productos"id= "Productos">
+                  
                </div>
            </div>
        </section>
@@ -195,13 +168,20 @@
 <script src="../javascript/ejercicio4.js"></script>
 <script> 
 window.onload= function () { 
-const contenedor = document.getElementById("categorias");
-categorias.forEach(cat => {
+    const contenedor = document.getElementById("categorias");
+    categorias.forEach(cat => {
 	contenedor.innerHTML += crearArticulo(cat);
 }); 
 
+
+
+    const contenedor2 = document.getElementById ("Productos");
+    Productos.forEach(dog => {
+    contenedor2.innerHTML+= crearArticulo2(dog);
+	
+}); 
 }
-   
 </script>
+
 
 

@@ -18,6 +18,26 @@ const categorias = [
         img:{id:"img3", src:"../imgs/accesorios.jpg", alt:"accesorios", width:"340", width:"270"}
 	}
 ];
+const Productos =[
+	{	titulo: 'Camisetas',
+		link: 'camisetas.html',
+		linkText: 'Ver más',
+        img: {id:"img4", src:"../imgs/camisetas.jpg", alt:"Ropa de Hombre", width:"340"}
+	},
+	{
+		titulo: 'Leggings de yoga',
+		link: '<leggins.html',
+		linkText: 'Ver más',
+        img:{id:"img5", src:"../imgs/leggins.jpg", alt:"Ropa de mujer", width:"360"}
+	},
+	{
+		titulo: 'Zapatillas de running',
+		link: 'Zapatillas.html',
+		linkText: 'Ver más',
+        img:{id:"img6", src:"../imgs/zapatillas.jpg", alt:"accesorios", width:"340", width:"270"}
+
+	}
+];
 
 function crearArticulo(categoria) {
 	return `
@@ -30,3 +50,15 @@ function crearArticulo(categoria) {
 		</article>
 	`;
 }
+function crearArticulo2(Productos) {
+	return `
+		<article class="productos destacado">
+			<h3>${Productos.titulo}</h3>
+			<div class="img-productodestacado">
+				<img src="${Productos.img.src}"alt="${Productos.img.alt}"width="${Productos.img.width}">
+			</div>
+			<a href="${Productos.link}">${Productos.linkText}</a>
+		</article>
+	`;	
+}
+
