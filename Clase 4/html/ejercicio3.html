@@ -79,7 +79,7 @@
        <section class="productos-destacados">
            <div class="container">
                <h2>Productos Destacados</h2>
-               <div class="grid-productos"id= "Productos">
+               <div class="grid-productos"id= "Producto">
                   
                </div>
            </div>
@@ -173,10 +173,8 @@ window.onload= function () {
 	contenedor.innerHTML += crearArticulo(cat);
 }); 
 
-
-
-    const contenedor2 = document.getElementById ("Productos");
-    Productos.forEach(dog => {
+    const contenedor2 = document.getElementById ("Producto");
+    Producto.forEach(dog => {
     contenedor2.innerHTML+= crearArticulo2(dog);
 	
 }); 
