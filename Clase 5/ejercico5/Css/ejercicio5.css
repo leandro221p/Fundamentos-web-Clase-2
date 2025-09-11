@@ -1,0 +1,28 @@
+.container{
+border: solid black 1px;
+border-radius: 10px;
+padding: 5px;
+margin-top: 10px;
+}
+.encabezado{
+    background-color: bisque;
+    height: 100px;
+    margin: 10px 5px;
+}
+.contenido{
+    height: 500px;
+    margin: 10px 5px;
+}
+.cuerpo{
+background-color: aquamarine;
+border-radius: 10px;
+height: 450px;
+margin-right: 10px;
+width: 600px;
+}
+.piedepagina{
+    background-color: rgb(123, 227, 18);
+    border-radius: 10px;
+    height: 70px;
+    margin: 10px 5px;
+}
