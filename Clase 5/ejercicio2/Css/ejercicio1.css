@@ -1,0 +1,52 @@
+.container{
+border: solid black 1px;
+border-radius: 10px;
+padding: 5px;
+margin-top: 10px;
+}
+.encabezado{
+    background-color: #f1e5aee0;
+    height: 100px;
+    margin: 10px 5px;
+   
+}
+.subtitulo{
+background-color: #f1e5aee0;
+    height: 50px;
+    margin: 5px; 
+    width: 1300px;       
+}
+.contenido{
+    height: 400px;
+    margin: 10px 5px;
+}
+.entry{
+   height: 100px;
+    margin: 5px; 
+    width: 100px;     
+}
+.section{
+ background-color: rgba(127, 253, 249, 0.305);
+    height: 100px;
+    margin: 5px; 
+    width: 950px;   
+}
+.cuerpo{
+background-color: #f1e5aee0;
+height: 400px;
+margin-right: 10px;
+width: 978px;
+}
+
+.lateralDerecho{
+background-color: #f1e5aee0;
+height: 400px;
+margin-right: 10px;
+width: 300px;
+
+}
+.piedepagina{
+    background-color: #f1e5aee0;
+    height: 100px;
+    margin: 5px 5px;
+}
