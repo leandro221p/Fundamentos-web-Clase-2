@@ -6,7 +6,7 @@
 }
 
 .encabezado{
-   background-color:lightblue;
+   background-color:rgb(145, 237, 214);
    border-radius: 10px;
    display: flex;
    flex-direction:row;
@@ -16,7 +16,7 @@
 
 }
 .titulo{
-    background-color: lightgreen;
+    background-color: rgb(246, 255, 144);
     border-radius: 10px;
     margin-right: 5px;   
     height: 45px;
@@ -33,7 +33,7 @@
 }
 
 .links{
-    background-color: rgb(34, 139, 34);
+    background-color: rgb(10, 15, 10);
     margin-left: 5px;
     border-radius: 10px;
     height: 25px;
@@ -43,7 +43,7 @@
 }
 
 .buscador{
-    background-color: green;
+    background-color: rgb(12, 16, 12);
     margin-left: 5px;
     border-radius: 10px;
     height: 15px;
@@ -59,14 +59,14 @@
 }
 
 .banner{
-    background-color: lightcoral;
+    background-color: rgb(206, 119, 72);
     border-radius: 5px;
     height: 200px;
     width: 100%;
     margin-bottom: 10px;
 }
 
-.lateralIzq{
+.lateralIzquierdo{
     background-color: lightsalmon;
     border-radius: 10px;
     height: 500px;
@@ -80,23 +80,23 @@
 }
    
 
-.sect1{
-    background-color: rgb(214, 211, 230);
+.setcion1{
+    background-color: rgb(192, 182, 248);
     border-radius: 10px;
     height: 150px;
     width: 250px;
     margin-top:20px;
 }
 
-.sect2{
-    background-color: rgb(194, 210, 193);
+.setcion2{
+    background-color: rgb(169, 240, 163);
     border-radius: 10px;
     height: 150px;
     width: 250px;
 }
 
-.sect3{
-    background-color:antiquewhite;
+.setcion3{
+    background-color:rgb(239, 156, 235);
     border-radius: 10px;
     height: 400px;
     width: 250px;
@@ -105,14 +105,14 @@
 }
 
 .cuerpo{
-    background-color: rgb(203, 190, 220);
+    background-color: rgb(191, 167, 223);
     border-radius: 10px;
     height: 500px;
-    width: 1200px;
+    width: 800px;
     
 }
 
-.lateralDer{
+.lateralDerecho{
     background-color: lightskyblue;
     border-radius: 10px;
     height: 500px;
@@ -121,7 +121,7 @@
 }
 
 
-.piepagina{
+.piedepagina{
     background-color:rgb(46, 46, 46);
     border-radius: 10px;
     height: 100px;
@@ -133,7 +133,7 @@
     
 }
 
-.info{
+.informacion{
     background-color: rgb(47, 93, 99);
     border-radius: 10px;
     height: 80px;
